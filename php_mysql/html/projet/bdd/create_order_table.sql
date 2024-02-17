@@ -1,0 +1,7 @@
+USE ecv_project;
+CREATE TABLE orders (
+  id INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  productName VARCHAR(100) NOT NULL,
+  productPrice INTEGER NOT NULL,
+  date    TIMESTAMP    NOT NULL
+);

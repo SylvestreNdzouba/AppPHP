@@ -1,0 +1,7 @@
+USE ecv_project;
+CREATE TABLE product (
+  id INTEGER NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  description LONGTEXT NOT NULL,
+  price INTEGER NOT NULL
+);
